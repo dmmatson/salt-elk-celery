@@ -1,0 +1,9 @@
+Logstash scans this directory for Celery logs, in SYSLOG format, with .log extension.
+
+e.g.
+
+File: my_celery_logs.log
+Line Format:
+Jan  1 01:01:01 hostname programname [2015-01-01 01:01:01,111: INFO/MainProcess] Received task: add_task[1ba6d98a-75a8-4bbe-8647-18d002b05d83]
+Jan  1 01:01:01 hostname programname [2015-01-01 01:01:02,111: INFO/Worker-1] add_task[277bd10a-2032-4f79-bd5e-16d34da175c4]: Adding 2+2
+Jan  1 01:01:01 hostname programname [2015-01-01 01:01:03,111: INFO/MainProcess] Task add_task[277bd10a-2032-4f79-bd5e-16d34da175c4] succeeded in 3.12345s: 4
