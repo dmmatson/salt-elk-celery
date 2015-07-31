@@ -8,7 +8,6 @@ nginx:
     - running
     - watch:
       - file: /etc/nginx/sites-available/default
-    - watch:
       - file: kopf_external_settings
 
 apache2-utils:

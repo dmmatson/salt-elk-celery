@@ -25,14 +25,6 @@ You can also view the cluster's status @ http://localhost:8080/kopf/
 
 To get Logstash to parse Celery logs, drop them in the ```logs``` directory which is shared between the host and VM.
 
-## Known Issues
-
-While ```vagrant up``` will highstate the node, some services may not have started and you will need to run highstate a
-second time.
-
-    vagrant ssh
-    sudo salt-call --local state.highstate
-
 ## License
 
 MIT

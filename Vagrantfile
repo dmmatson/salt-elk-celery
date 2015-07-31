@@ -39,6 +39,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :salt do |salt|
     salt.minion_config = "salt/config/minion.conf"
     salt.run_highstate = true
+    salt.install_type = "stable"
+    salt.bootstrap_options = "-P"
   end
 
   # Forward nginx
