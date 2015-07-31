@@ -14,8 +14,7 @@ but could easily be extended to Apache logs, etc.
 1. Clone this repo
 2. Run ```vagrant up``` in a terminal from the directory containing this repo's Vagrantfile
 3. Wait...
-4. Possibly run highstate, see 'Known Issues' below
-5. View Kibana in a browser @ http://localhost:8080
+4. View Kibana in a browser @ http://localhost:8080
 
 Note:
 
